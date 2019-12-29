@@ -13,7 +13,7 @@ public class Word {
     @ColumnInfo(name = "word")
     private String mWord;
 
-    public Word(@NonNull String mWord) {
+    public Word(String mWord) {
         this.mWord = mWord;
     }
 
