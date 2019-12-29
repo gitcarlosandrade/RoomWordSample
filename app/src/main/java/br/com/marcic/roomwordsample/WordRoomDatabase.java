@@ -12,7 +12,7 @@ import java.util.concurrent.Executors;
 @Database(entities = {Word.class}, version = 1, exportSchema = false)
 public abstract class WordRoomDatabase extends RoomDatabase {
 
-    public abstract WordDao WordDao();
+    public abstract WordDao wordDao();
 
     private static volatile WordRoomDatabase INSTANCE;
     private static final int NUMBER_OF_THREADS = 4;
